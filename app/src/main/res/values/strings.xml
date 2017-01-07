@@ -1,0 +1,162 @@
+<resources>
+
+    //Strings for LoginActivity
+
+    <string name="sexual_health_quiz_title">Sexual Health Quiz!</string>
+    <string name="login_email_address_field">Email Address</string>
+    <string name="login_password_field">Password</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_register_button">Register</string>
+
+    //Strings for RegisterActivity
+
+    <string name="register_sexual_health_quiz_title">Sexual Health Quiz!</string>
+    <string name="register_email_address_field">Email Address</string>
+    <string name="register_password_field">Password</string>
+    <string name="register_register_button">Register</string>
+    <string name="register_return_to_login">Return To Login</string>
+
+    //Strings for MainActivity
+
+    <string name="logout">Logout / New Player</string>
+    <string name="start_new_quiz">Start New Quiz</string>
+    <string name="you_are_logged_in">You are logged in!</string>
+
+    //Strings for QuizActivity
+
+    <string name="app_name">Quiz App</string>
+    <string name="q1button">Q1</string>
+    <string name="q2button">Q2</string>
+    <string name="q3button">Q3</string>
+    <string name="q4button">Q4</string>
+    <string name="q5button">Q5</string>
+    <string name="q6button">Q6</string>
+    <string name="q7button">Q7</string>
+    <string name="q8button">Q8</string>
+
+    //Strings for FragmentOne
+
+    <string name="true_frag1">True</string>
+    <string name="false_frag1">False</string>
+    <string name="save_frag1">Save</string>
+    <string name="cheat_frag1">Cheat</string>
+    <string name="skip_frag1">Skip</string>
+
+    //Strings for FragmentTwo
+
+    <string name="true_frag2">True</string>
+    <string name="false_frag2">False</string>
+    <string name="save_frag2">Save</string>
+    <string name="cheat_frag2">Cheat</string>
+    <string name="skip_frag2">Skip</string>
+
+    //Strings for FragmentThree
+
+    <string name="true_frag3">True</string>
+    <string name="false_frag3">False</string>
+    <string name="save_frag3">Save</string>
+    <string name="cheat_frag3">Cheat</string>
+    <string name="skip_frag3">Skip</string>
+
+    //Strings for FragmentFour
+
+    <string name="true_frag4">True</string>
+    <string name="false_frag4">False</string>
+    <string name="save_frag4">Save</string>
+    <string name="cheat_frag4">Cheat</string>
+    <string name="skip_frag4">Skip</string>
+
+    //Strings for FragmentFive
+
+    <string name="true_frag5">True</string>
+    <string name="false_frag5">False</string>
+    <string name="save_frag5">Save</string>
+    <string name="cheat_frag5">Cheat</string>
+    <string name="skip_frag5">Skip</string>
+
+    //Strings for FragmentSix
+
+    <string name="true_frag6">True</string>
+    <string name="false_frag6">False</string>
+    <string name="save_frag6">Save</string>
+    <string name="cheat_frag6">Cheat</string>
+    <string name="skip_frag6">Skip</string>
+
+    //Strings for FragmentSeven
+
+    <string name="true_frag7">True</string>
+    <string name="false_frag7">False</string>
+    <string name="save_frag7">Save</string>
+    <string name="cheat_frag7">Cheat</string>
+    <string name="skip_frag7">Skip</string>
+
+    //Strings for FragmentEight
+
+    <string name="true_frag8">True</string>
+    <string name="false_frag8">False</string>
+    <string name="submit_frag8">Submit</string>
+    <string name="cheat_frag8">Cheat</string>
+    <string name="skip_frag8">Skip</string>
+
+    //Strings for Questions
+
+    <string name="question1">Question 1: HIV can be contracted via casual contact.</string>
+    <string name="question2">Question 2: STDs cannot be contracted via oral sex.</string>
+    <string name="question3">Question 3: You can contract HIV from inanimate objects.</string>
+    <string name="question4">Question 4: Condoms help prevent the spread of STDs.</string>
+    <string name="question5">Question 5: HIV testing is not advisable unless you are homosexual.</string>
+    <string name="question6">Question 6: The NHS provides robust testing services in London.</string>
+    <string name="question7">Question 7: You will definitely know if you have contracted an STD - symptoms will always show.</string>
+    <string name="question8">Question 8: HIV is a death sentence.</string>
+
+    //Strings for ScoreActivity
+
+    <string name="question_1_outcome">Question 1</string>
+    <string name="question_2_outcome">Question 2</string>
+    <string name="question_3_outcome">Question 3</string>
+    <string name="question_4_outcome">Question 4</string>
+    <string name="question_5_outcome">Question 5</string>
+    <string name="question_6_outcome">Question 6</string>
+    <string name="question_7_outcome">Question 7</string>
+    <string name="question_8_outcome">Question 8</string>
+
+    <string name="see_scores">Score History / Multiplayer Score Comparisons</string>
+    <string name="end_quiz">End Quiz</string>
+    <string name="compare"><u>Compare With Other Player</u></string>
+    <string name="score_words">Score:</string>
+    <string name="score_number_field">0/8</string>
+
+    <string name="q1Ebutton">Q1</string>
+    <string name="q2Ebutton">Q2</string>
+    <string name="q3Ebutton">Q3</string>
+    <string name="q4Ebutton">Q4</string>
+    <string name="q5Ebutton">Q5</string>
+    <string name="q6Ebutton">Q6</string>
+    <string name="q7Ebutton">Q7</string>
+    <string name="q8Ebutton">Q8</string>
+
+    <string name="explanation1">Question 1: HIV cannot be contracted via casual contact. Ultimately, there must be an exchange of bodily fluids, with direct access to the bloodstream. Most commonly, HIV is transmitted via sexual behavior, and needle or syringe use.</string>
+    <string name="explanation2">Question 2: Although generally safer than unprotected, penetrative sex, oral sex does put one at risk of contracting herpes simplex, gonorrhoea, syphillis, chlamydia, HIV, hepatitis A, B, and C, genital warts, and pubic lice.</string>
+    <string name="explanation3">Question 3: You cannot contract HIV from inanimate objects. Again, HIV transmission only occurs when there is direct, and prolonged exposure to bodily fluids. Furthermore, once exposed to air, HIV rapidly becomes non-transmissible.</string>
+    <string name="explanation4">Question 4: Condoms, when used consistently and correctly, do help prevent the spread of STDs, although they do not completely eliminate the risk of STD transmission.</string>
+    <string name="explanation5">Question 5: HIV can infect anybody who is sexually active, regardless of sexual orientation, ethnicity, and occupation! As long as you are sexually active, you should consider regular testing.</string>
+    <string name="explanation6">Question 6: There are, indeed, many sexual health clinics operated by the NHS in London. These include Dean Street Express (Soho), and the Jefferiss Wing Centre for sexual health (St. Mary\'s Hospital).</string>
+    <string name="explanation7">Question 7: STD symptoms are not always obvious. For example, HIV symptoms may not show for several years. This is why it is important to consider regular testing.</string>
+    <string name="explanation8">Question 8: With early virus detection, and the correct treatment, those living with HIV can expect to live a normal lifespan!</string>
+
+    //Strings for CompareActivity
+
+    <string name="_0_8">0/8</string>
+    <string name="back">Back</string>
+    <string name="comparebtn">Compare!</string>
+    <string name="enter_opponent_s_email_address">Enter Opponent\'s Email Address</string>
+    <string name="opponent_s_high_score">Opponent\'s High Score:</string>
+    <string name="opponent_s_low_score">Opponent\'s Low Score:</string>
+    <string name="opponent_s_most_recent_score">Opponent\'s Most Recent Score:</string>
+    <string name="your_current_score">Your Current Score:</string>
+    <string name="your_high_score">Your High Score:</string>
+    <string name="your_low_score">Your Low Score:</string>
+    <string name="your_previous_score">Your Previous Score:</string>
+
+</resources>
+

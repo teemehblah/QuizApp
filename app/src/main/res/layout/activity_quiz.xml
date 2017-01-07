@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:text="@string/q5button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q1button"
+            android:layout_alignLeft="@+id/q1button"
+            android:layout_alignStart="@+id/q1button"
+            android:id="@+id/q5button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_green_dark" />
+
+        <Button
+            android:text="@string/q6button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/q5button"
+            android:layout_toRightOf="@+id/q5button"
+            android:layout_toEndOf="@+id/q1button"
+            android:id="@+id/q6button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_blue_light" />
+
+        <Button
+            android:text="@string/q7button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/q6button"
+            android:layout_toRightOf="@+id/q2button"
+            android:layout_toEndOf="@+id/q2button"
+            android:id="@+id/q7button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_blue_dark" />
+
+        <Button
+            android:text="@string/q8button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q3button"
+            android:layout_alignRight="@+id/q4button"
+            android:layout_alignEnd="@+id/q4button"
+            android:id="@+id/q8button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_purple" />
+
+        <Button
+            android:text="@string/q4button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp" />
+
+        <Button
+            android:text="@string/q3button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/q4button"
+            android:layout_toStartOf="@+id/q4button" />
+
+        <Button
+            android:text="@string/q2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_orange_light"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/q3button"
+            android:layout_toStartOf="@+id/q3button" />
+
+        <Button
+            android:text="@string/q1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1button"
+            android:onClick="ChangeFragment"
+            android:background="@android:color/holo_red_light"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/q2button"
+            android:layout_toStartOf="@+id/q2button" />
+
+    </RelativeLayout>
+
+    <fragment
+        android:name="layout.FragmentOne"
+        android:id="@+id/fragment_place"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></fragment>
+
+</LinearLayout>
